@@ -110,7 +110,7 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
   gap: 30px;
 }
