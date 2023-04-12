@@ -60,6 +60,14 @@
           </picture>
         </section>
       </main>
+      <script>
+        const menuHamburguesa = document.querySelector(".menu-btn");
+        const navList = document.querySelector(".header__navigation");
+
+        menuHamburguesa.addEventListener("click", () => {
+          navList.classList.toggle("mobile-menu");
+        });
+      </script>
     </div>
   </body>
 </html>
